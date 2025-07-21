@@ -16,6 +16,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button2Click(TObject *Sender)
 {
+    // developブランチに切り替えました git switch -C develop
 	/*
 		プロジェクト＞オプションで　ビルド後イベントに　copy $(ProjectDir)\*.xls* $(OUTPUTDIR)　を登録しておく
 		これで、プロジェクトのフォルダにあるExcelファイルが実行ファイルのあるフォルダに自動コピーされる
