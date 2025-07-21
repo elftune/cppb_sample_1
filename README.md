@@ -4,6 +4,7 @@
 - Microsoft Excel 20xx
 - C++ Builder 12 CE:　ツール＞オプション＞エディタ＞デフォルトのファイルエンコード を UTF8 にしています
 - Git for Windows のインストール、GitHubのアカウントおよびアクセストークン(repoだけでOK)作成 があるとなおよい
+- アクセストークンではなくSSH登録でももちろんOK
 
 ## 概要
 C++ Builderで、OLEでVBAの戻り値取得はどうやるのー？という質問への回答
