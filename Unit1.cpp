@@ -23,7 +23,7 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 		出力先は VSでは $(TargetDir)　C++ Builderでは$(OUTPUTDIR)
 
 		フォルダをコピーしたい場合、VSではこうする(Dataというフォルダ)
-		copy $(ProjectDir)Data $(TargetDir)Data /D/E/C/I/H/Y
+		xcopy $(ProjectDir)Data $(TargetDir)Data /D/E/C/I/H/Y
 	*/
 
 	Variant ExcelApp = Variant::CreateObject("Excel.Application");
